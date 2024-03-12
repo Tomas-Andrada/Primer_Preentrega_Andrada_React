@@ -1,4 +1,4 @@
-import React from 'react';
+import { CartWidget } from './CartWidget'
 
 export const NavBar = () => {
   return (
@@ -9,6 +9,7 @@ export const NavBar = () => {
         <a href="#">Electrodomésticos y Tecnología para el Hogar</a>
         <a href="#">Computadoras y Accesorios</a>
       </div>
+      <CartWidget />
     </>
   );
 }
