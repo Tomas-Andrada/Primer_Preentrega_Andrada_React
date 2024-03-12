@@ -1,0 +1,50 @@
+/* En tu archivo App.css */
+
+.Barra_Superior {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #060b95;
+  color: #fff;
+  font-family:  sans-serif;
+}
+.Barra_Superior p {
+  color: #c8b80b;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.Barra_Superior a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.Categorias {
+  list-style-type: none;
+  display: flex;
+}
+
+.Categorias a {
+  margin-right: 35px;
+}
+
+.CartContainer {
+  position: relative;
+}
+
+.CartContainer i {
+  font-size: 24px;
+}
+
+.CartNotification {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background-color: red;
+  color: #fff;
+  border-radius: 50%;
+  padding: 4px 8px;
+  font-size: 12px;
+}
